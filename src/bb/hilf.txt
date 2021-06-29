@@ -1,0 +1,16 @@
+#_(defn draw [{:keys [circles]}]
+    (q/background 255)
+    (doseq [{[x y] :pos [r g b] :color} circles]
+      (q/fill r g b)
+      (q/ellipse x y 10 10)))
+#_(defn draw [] (q/background 255))
+
+#_(defn draw []
+    (q/background 127)
+    (q/fill 0)
+    (q/ellipse 56 46 55 55))
+
+#_(defn update-state [{:keys [width height] :as state}]
+    (update state :circles conj {:pos   [(+ 20 (rand-int (- width 40)))
+                                         (+ 20 (rand-int (- height 40)))]
+                                 :color (repeatedly 3 #(rand-int 250))}))
