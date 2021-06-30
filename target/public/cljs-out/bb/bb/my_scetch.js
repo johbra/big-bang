@@ -1,20 +1,19 @@
-// Compiled by ClojureScript 1.10.773 {}
+// Compiled by ClojureScript 1.10.773 {:static-fns true, :optimize-constants true}
 goog.provide('bb.my_scetch');
 goog.require('cljs.core');
+goog.require('cljs.core.constants');
 goog.require('quil.core');
 goog.require('bb.big_bang');
 bb.my_scetch.number__GT_square = (function bb$my_scetch$number__GT_square(state){
-return quil.core.rect.call(null,(200),(200),new cljs.core.Keyword(null,"size","size",1098693007).cljs$core$IFn$_invoke$arity$1(state),new cljs.core.Keyword(null,"size","size",1098693007).cljs$core$IFn$_invoke$arity$1(state));
+return quil.core.rect.cljs$core$IFn$_invoke$arity$4((200),(200),cljs.core.cst$kw$size.cljs$core$IFn$_invoke$arity$1(state),cljs.core.cst$kw$size.cljs$core$IFn$_invoke$arity$1(state));
 });
 bb.my_scetch.reset = (function bb$my_scetch$reset(state){
-return cljs.core.assoc.call(null,state,new cljs.core.Keyword(null,"size","size",1098693007),(100));
+return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(state,cljs.core.cst$kw$size,(100));
 });
 bb.my_scetch.my_scetch = (function bb$my_scetch$my_scetch(){
-return bb.big_bang.big_bang.call(null,new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"size","size",1098693007),(100)], null),new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null,"to-draw","to-draw",-1467115105),bb.my_scetch.number__GT_square,new cljs.core.Keyword(null,"on-tick","on-tick",-56973396),(function (p1__18092_SHARP_){
-return (p1__18092_SHARP_ - 0.5);
-}),new cljs.core.Keyword(null,"on-key","on-key",1297490032),bb.my_scetch.reset,new cljs.core.Keyword(null,"stop-when","stop-when",752930802),(function (p1__18093_SHARP_){
-return cljs.core._EQ_.call(null,p1__18093_SHARP_,(-20));
+return bb.big_bang.big_bang(new cljs.core.PersistentArrayMap(null, 1, [cljs.core.cst$kw$size,(100)], null),new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$to_DASH_draw,bb.my_scetch.number__GT_square,cljs.core.cst$kw$on_DASH_tick,(function (p1__16043_SHARP_){
+return (p1__16043_SHARP_ - 0.5);
+}),cljs.core.cst$kw$on_DASH_key,bb.my_scetch.reset,cljs.core.cst$kw$stop_DASH_when,(function (p1__16044_SHARP_){
+return cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(p1__16044_SHARP_,(-20));
 })], null));
 });
-
-//# sourceMappingURL=my_scetch.js.map
