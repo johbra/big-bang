@@ -32,12 +32,12 @@ return new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMP
 })], null));
 });
 bb.big_bang.big_bang = (function bb$big_bang$big_bang(state,events){
-var with_let24138 = reagent.ratom.with_let_values.call(null,new cljs.core.Keyword(null,"with-let24138","with-let24138",-1538211206));
-var temp__5739__auto___24140 = reagent.ratom._STAR_ratom_context_STAR_;
-if((temp__5739__auto___24140 == null)){
+var with_let18086 = reagent.ratom.with_let_values.call(null,new cljs.core.Keyword(null,"with-let18086","with-let18086",-31009656));
+var temp__5739__auto___18088 = reagent.ratom._STAR_ratom_context_STAR_;
+if((temp__5739__auto___18088 == null)){
 } else {
-var c__14892__auto___24141 = temp__5739__auto___24140;
-if((with_let24138.generation === c__14892__auto___24141.ratomGeneration)){
+var c__15392__auto___18089 = temp__5739__auto___18088;
+if((with_let18086.generation === c__15392__auto___18089.ratomGeneration)){
 if(cljs.core.truth_(reagent.debug.has_console)){
 (cljs.core.truth_(reagent.debug.tracking)?reagent.debug.track_console:console).error(["Warning: The same with-let is being used more ","than once in the same reactive context."].join(''));
 } else {
@@ -45,17 +45,17 @@ if(cljs.core.truth_(reagent.debug.has_console)){
 } else {
 }
 
-(with_let24138.generation = c__14892__auto___24141.ratomGeneration);
+(with_let18086.generation = c__15392__auto___18089.ratomGeneration);
 }
 
 
-var init24139 = (with_let24138.length === (0));
-var running_QMARK_ = ((init24139)?(with_let24138[(0)] = reagent.core.atom.call(null,false)):(with_let24138[(0)]));
-var res__14893__auto__ = new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"div","div",1057191632),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"div>button","div>button",1195060839),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"on-click","on-click",1632826543),(function (){
+var init18087 = (with_let18086.length === (0));
+var running_QMARK_ = ((init18087)?(with_let18086[(0)] = reagent.core.atom.call(null,false)):(with_let18086[(0)]));
+var res__15393__auto__ = new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"div","div",1057191632),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"div>button","div>button",1195060839),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"on-click","on-click",1632826543),(function (){
 return cljs.core.swap_BANG_.call(null,running_QMARK_,cljs.core.not);
 })], null),(cljs.core.truth_(cljs.core.deref.call(null,running_QMARK_))?"stop":"start")], null),(cljs.core.truth_(cljs.core.deref.call(null,running_QMARK_))?new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [bb.big_bang.canvas,new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"size","size",1098693007),new cljs.core.Keyword(null,"size","size",1098693007).cljs$core$IFn$_invoke$arity$1(state),new cljs.core.Keyword(null,"stop","stop",-2140911342),new cljs.core.Keyword(null,"stop-when","stop-when",752930802).cljs$core$IFn$_invoke$arity$1(events)], null),events], null):null)], null);
 
-return res__14893__auto__;
+return res__15393__auto__;
 });
 
 //# sourceMappingURL=big_bang.js.map

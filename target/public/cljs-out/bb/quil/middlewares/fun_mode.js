@@ -30,8 +30,8 @@ quil.middlewares.fun_mode.key_event = (function quil$middlewares$fun_mode$key_ev
 return new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"key","key",-1516042587),quil.core.key_as_keyword.call(null),new cljs.core.Keyword(null,"key-code","key-code",-1732114304),quil.core.key_code.call(null),new cljs.core.Keyword(null,"raw-key","raw-key",-162482279),quil.core.raw_key.call(null)], null);
 });
 quil.middlewares.fun_mode.wrap_handler = (function quil$middlewares$fun_mode$wrap_handler(var_args){
-var G__21906 = arguments.length;
-switch (G__21906) {
+var G__18022 = arguments.length;
+switch (G__18022) {
 case 2:
 return quil.middlewares.fun_mode.wrap_handler.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arguments[(1)]));
 
@@ -68,14 +68,14 @@ return options;
 
 quil.middlewares.fun_mode.wrap_handlers = (function quil$middlewares$fun_mode$wrap_handlers(var_args){
 var args__4742__auto__ = [];
-var len__4736__auto___21910 = arguments.length;
-var i__4737__auto___21911 = (0);
+var len__4736__auto___18026 = arguments.length;
+var i__4737__auto___18027 = (0);
 while(true){
-if((i__4737__auto___21911 < len__4736__auto___21910)){
-args__4742__auto__.push((arguments[i__4737__auto___21911]));
+if((i__4737__auto___18027 < len__4736__auto___18026)){
+args__4742__auto__.push((arguments[i__4737__auto___18027]));
 
-var G__21912 = (i__4737__auto___21911 + (1));
-i__4737__auto___21911 = G__21912;
+var G__18028 = (i__4737__auto___18027 + (1));
+i__4737__auto___18027 = G__18028;
 continue;
 } else {
 }
@@ -99,11 +99,11 @@ return cljs.core.apply.call(null,quil.middlewares.fun_mode.wrap_handler,options_
 (quil.middlewares.fun_mode.wrap_handlers.cljs$lang$maxFixedArity = (1));
 
 /** @this {Function} */
-(quil.middlewares.fun_mode.wrap_handlers.cljs$lang$applyTo = (function (seq21908){
-var G__21909 = cljs.core.first.call(null,seq21908);
-var seq21908__$1 = cljs.core.next.call(null,seq21908);
+(quil.middlewares.fun_mode.wrap_handlers.cljs$lang$applyTo = (function (seq18024){
+var G__18025 = cljs.core.first.call(null,seq18024);
+var seq18024__$1 = cljs.core.next.call(null,seq18024);
 var self__4723__auto__ = this;
-return self__4723__auto__.cljs$core$IFn$_invoke$arity$variadic(G__21909,seq21908__$1);
+return self__4723__auto__.cljs$core$IFn$_invoke$arity$variadic(G__18025,seq18024__$1);
 }));
 
 quil.middlewares.fun_mode.wrap_mouse_wheel = (function quil$middlewares$fun_mode$wrap_mouse_wheel(options){

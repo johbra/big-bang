@@ -10,10 +10,10 @@ bb.my_scetch.reset = (function bb$my_scetch$reset(state){
 return cljs.core.assoc.call(null,state,new cljs.core.Keyword(null,"size","size",1098693007),(100));
 });
 bb.my_scetch.my_scetch = (function bb$my_scetch$my_scetch(){
-return bb.big_bang.big_bang.call(null,new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"size","size",1098693007),(100)], null),new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null,"to-draw","to-draw",-1467115105),bb.my_scetch.number__GT_square,new cljs.core.Keyword(null,"on-tick","on-tick",-56973396),(function (p1__24144_SHARP_){
-return (p1__24144_SHARP_ - 0.5);
-}),new cljs.core.Keyword(null,"on-key","on-key",1297490032),bb.my_scetch.reset,new cljs.core.Keyword(null,"stop-when","stop-when",752930802),(function (p1__24145_SHARP_){
-return cljs.core._EQ_.call(null,p1__24145_SHARP_,(-20));
+return bb.big_bang.big_bang.call(null,new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"size","size",1098693007),(100)], null),new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null,"to-draw","to-draw",-1467115105),bb.my_scetch.number__GT_square,new cljs.core.Keyword(null,"on-tick","on-tick",-56973396),(function (p1__18092_SHARP_){
+return (p1__18092_SHARP_ - 0.5);
+}),new cljs.core.Keyword(null,"on-key","on-key",1297490032),bb.my_scetch.reset,new cljs.core.Keyword(null,"stop-when","stop-when",752930802),(function (p1__18093_SHARP_){
+return cljs.core._EQ_.call(null,p1__18093_SHARP_,(-20));
 })], null));
 });
 
