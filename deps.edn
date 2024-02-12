@@ -9,6 +9,7 @@
  :paths ["src" "target" "resources"]
  :aliases
  {:fig {:main-opts ["-m" "figwheel.main"]}
+  :build :build {:main-opts ["-m" "figwheel.main" "-b" "bb" "-r"]}
   :clj-kondo
   {:extra-deps {clj-kondo {:mvn/version "RELEASE"}}
    :main-opts ["-m" "clj-kondo.main"]}}}
