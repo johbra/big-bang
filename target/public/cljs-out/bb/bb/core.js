@@ -5,7 +5,7 @@ goog.require('cljs.pprint');
 goog.require('reagent.dom');
 goog.require('bb.my_scetch');
 bb.core.main_panel = (function bb$core$main_panel(){
-return new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"div","div",1057191632),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"h1","h1",-1896887462),"Big-Bang"], null),bb.my_scetch.my_scetch.call(null)], null);
+return new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"div","div",1057191632),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"h1","h1",-1896887462),"Big-Bang 2"], null),bb.my_scetch.my_scetch.call(null)], null);
 });
 bb.core.main = (function bb$core$main(){
 return reagent.dom.render.call(null,new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [bb.core.main_panel], null),document.getElementById("app"));
