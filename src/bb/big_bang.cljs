@@ -21,8 +21,8 @@
    {:component-did-mount
     (fn [component]
       (let [node (rdom/dom-node component)
-            width 800 #_(/ (.-innerWidth js/window) 2)
-            height 800 #_(/ (.-innerHeight js/window) 2)]
+            width 800 
+            height 800]
         (q/sketch 
          :host node
          :draw (partial draw (:to-draw events))

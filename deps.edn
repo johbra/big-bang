@@ -5,7 +5,7 @@
         com.bhauman/rebel-readline-cljs {:mvn/version "0.1.4"}
         binaryage/devtools {:mvn/version "1.0.2"}
         reagent {:mvn/version "1.0.0-alpha2"} 
-        clj-kondo {:mvn/version "2020.09.09"}}
+        clj-kondo/clj-kondo {:mvn/version "2021.10.19"}}
  :paths ["src" "target" "resources"]
  :aliases
  {:fig {:main-opts ["-m" "figwheel.main"]}
