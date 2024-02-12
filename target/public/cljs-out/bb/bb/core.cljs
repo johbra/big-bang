@@ -7,7 +7,7 @@
 (defn main-panel
   []
   [:div
-   [:h1 "Big-Bang"]
+   [:h1 "Big-Bang neu"]
    (my-scetch)])
 
 (defn ^:export main     ;; call this to bootstrap your app

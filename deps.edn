@@ -1,10 +1,10 @@
-{:deps {org.clojure/clojure {:mvn/version "1.10.1"}
-        org.clojure/clojurescript {:mvn/version "1.10.773"}
+{:deps {org.clojure/clojure {:mvn/version "1.11.1"}
+        org.clojure/clojurescript {:mvn/version "1.11.132"}
         quil {:mvn/version "3.1.0"}
-        com.bhauman/figwheel-main {:mvn/version "0.2.11"}
+        com.bhauman/figwheel-main {:mvn/version "0.2.18"}
         com.bhauman/rebel-readline-cljs {:mvn/version "0.1.4"}
         binaryage/devtools {:mvn/version "1.0.2"}
-        reagent {:mvn/version "1.0.0-alpha2"} 
+        reagent {:mvn/version "1.2.0"} 
         clj-kondo/clj-kondo {:mvn/version "2021.10.19"}}
  :paths ["src" "target" "resources"]
  :aliases
