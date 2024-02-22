@@ -1,15 +1,16 @@
 {:deps {org.clojure/clojure {:mvn/version "1.11.1"}
         org.clojure/clojurescript {:mvn/version "1.11.132"}
-        quil {:mvn/version "3.1.0"}
+        quil/quil {:mvn/version "3.1.0"}
         com.bhauman/figwheel-main {:mvn/version "0.2.18"}
         com.bhauman/rebel-readline-cljs {:mvn/version "0.1.4"}
         binaryage/devtools {:mvn/version "1.0.2"}
-        reagent {:mvn/version "1.2.0"} 
-        clj-kondo/clj-kondo {:mvn/version "2021.10.19"}}
+        clj-kondo/clj-kondo {:mvn/version "2021.10.19"}
+        reagent/reagent {:mvn/version "1.2.0"}
+        cljsjs/react {:mvn/version "18.2.0-1"}
+        cljsjs/react-dom {:mvn/version "18.2.0-1"}}
  :paths ["src" "target" "resources"]
  :aliases
  {:fig {:main-opts ["-m" "figwheel.main"]}
-  :build :build {:main-opts ["-m" "figwheel.main" "-b" "bb" "-r"]}
-  :clj-kondo
-  {:extra-deps {clj-kondo {:mvn/version "RELEASE"}}
-   :main-opts ["-m" "clj-kondo.main"]}}}
+  :build {:main-opts ["-m" "figwheel.main" "-b" "bb" "-r"]}
+  :clj-kondo {:extra-deps {clj-kondo {:mvn/version "RELEASE"}}}
+  :main-opts ["-m" "clj-kondo.main"]}}
